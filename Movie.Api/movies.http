@@ -1,1 +1,33 @@
-GET http://localhost:5041
+ GET http://localhost:5041/
+
+### GET All movies
+GET http://localhost:5041/movies
+
+### GET movie by id
+GET http://localhost:5041/movies/6
+
+### POST movie
+POST http://localhost:5041/movies
+Content-Type: application/json
+
+{
+    "title": "James Bond",
+    "directorId": 3,
+    "releaseDate": "2023-08-21"
+}
+
+
+### UPDATE movie
+PUT  http://localhost:5041/movies/6
+Content-Type: application/json
+
+{
+  "title": "Mike Tyson",
+  "directorId": 1,
+  "releaseDate": "2024-04-19"
+}
+
+
+### DELETE movie
+DELETE  http://localhost:5041/movies/11
+

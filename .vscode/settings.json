@@ -1,0 +1,19 @@
+{
+    "sqltools.connections": [
+        {
+            "mssqlOptions": {
+                "appName": "SQLTools",
+                "useUTC": true,
+                "encrypt": true
+            },
+            "previewLimit": 50,
+            "server": "MAXIM_KEMAJOU",
+            "port": 1433,
+            "driver": "MSSQL",
+            "name": "SQL Server",
+            "username": "MAXIM_KEMAJOU",
+            "database": "MovieStore",
+            "password": "@Dideros80"
+        }
+    ]
+}
